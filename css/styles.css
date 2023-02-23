@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+
+/* Nav Bar */
+.navbar{
+    padding: 0;
+}
+
+.my-home{
+    text-decoration: none;
+    color: black;
+}
+
+/* Title Section */
+
+#title{
+    padding: 4% 15%;
+    background: #076DFF;
+    background: -o-linear-gradient(#076DFF, #65a5ff);
+    background: -moz-linear-gradient(#076DFF, #65a5ff);
+    background: -webkit-linear-gradient(#076DFF, #65a5ff);
+    background: linear-gradient(#076DFF, #65a5ff);
+
+}
+
+.heading-1{
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.hp-1{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.h-input-1{
+    border-radius: 3px;
+    border-style: none;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.t-part-2{
+    margin-left: 30px;
+}
+
+
+/* Standard Section */
+#standards{
+    padding: 20px 30px 50px 10px;
+    text-align: center;
+}
+
+.standards-heading{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+
+.my-logo{
+    width: 35%;
+}
+
+.sec2-center{
+    height: 100%;   /* 100% height of the row it is in */
+    text-align: center;
+    box-shadow: 1px 1px 1px lightgray, -1px -1px 1px lightgray;
+    padding: 30px 2px 30px 2px;
+}
+
+
+.learn-more{
+    margin-top: 30px;
+    box-shadow: 1px 1px 2px black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* More Section */
+
+#more{
+    padding: 8% 5% 8% 2%;
+}
+
+.more-paragraph{
+    line-height: 2;
+    padding-right: 40px;
+}
+
+.img-more-image{
+    width: 90%;
+    box-shadow: 1px 1px 3px gray;
+}
+
+
+/* Footer Section */
+#myfooter{
+    background-color: #95BDFF;
+    padding: 3% 3% 3% 3%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h4{
+    margin-left: 32px;
+}
+
+.f{
+    margin-left: 50px;
+}
+
+
+
+/* Mobile Section */
+@media (max-width: 767px){
+    .t-part-1{
+        text-align: center;
+    }
+
+    .t-part-2{
+        text-align: center;
+        margin-left: 0;
+        margin-top: 10px;
+        
+    }
+
+    .img-more-image{
+        width: 50%;
+    }
+}
